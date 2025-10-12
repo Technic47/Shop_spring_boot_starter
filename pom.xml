@@ -9,13 +9,13 @@
     </parent>
     <groupId>io.github.technic47</groupId>
     <artifactId>shop-spring-boot-starter</artifactId>
-    <version>1.0.0</version>
+    <version>1.0.1</version>
 
     <name>${project.groupId}:${project.artifactId}</name>
     <description>Shop-starter</description>
     <url>https://github.com/Technic47/Shop_spring_boot_starter</url>
-    <inceptionYear>2021</inceptionYear>
-<!--    <packaging>pom</packaging>-->
+    <inceptionYear>2025</inceptionYear>
+    <packaging>pom</packaging>
 
     <licenses>
         <license>
