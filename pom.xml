@@ -42,7 +42,7 @@
 
         <spring.version>${parent.version}</spring.version>
         <data-model-version>1.0.4</data-model-version>
-        <data-model-dto-version>1.0.0</data-model-dto-version>
+        <data-model-dto.version>1.0.0</data-model-dto.version>
         <mapstruct-version>1.6.2</mapstruct-version>
     </properties>
     <dependencies>
