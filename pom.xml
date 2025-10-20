@@ -9,7 +9,7 @@
     </parent>
     <groupId>io.github.technic47</groupId>
     <artifactId>shop-spring-boot-starter</artifactId>
-    <version>1.0.6</version>
+    <version>1.0.7</version>
 
     <name>${project.groupId}:${project.artifactId}</name>
     <description>Shop-starter</description>
@@ -42,7 +42,7 @@
 
         <spring.version>${parent.version}</spring.version>
         <data-model.version>1.0.6</data-model.version>
-        <data-model-dto.version>1.0.2</data-model-dto.version>
+        <data-model-dto.version>1.0.3</data-model-dto.version>
         <mapstruct.version>1.6.2</mapstruct.version>
     </properties>
     <dependencies>
