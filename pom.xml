@@ -11,7 +11,7 @@
 
     <groupId>io.github.technic47</groupId>
     <artifactId>shop-spring-boot-starter</artifactId>
-    <version>1.0.9</version>
+    <version>1.0.10</version>
 
     <name>${project.groupId}:${project.artifactId}</name>
     <description>Shop-starter</description>
@@ -44,31 +44,13 @@
 
         <spring-boot.version>3.5.6</spring-boot.version>
 
-        <data-model.version>1.0.7</data-model.version>
-        <data-model-dto.version>1.0.3</data-model-dto.version>
-        <data-access.version>1.0.0</data-access.version>
+        <data-model.version>1.0.8</data-model.version>
+        <data-model-dto.version>1.0.4</data-model-dto.version>
+        <data-access.version>1.0.1</data-access.version>
 
         <mapstruct.version>1.6.2</mapstruct.version>
     </properties>
     <dependencies>
-        <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-data-jpa</artifactId>
-        </dependency>
-        <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-data-redis</artifactId>
-            <exclusions>
-                <exclusion>
-                    <groupId>io.lettuce</groupId>
-                    <artifactId>lettuce-core</artifactId>
-                </exclusion>
-            </exclusions>
-        </dependency>
-        <dependency>
-            <groupId>redis.clients</groupId>
-            <artifactId>jedis</artifactId>
-        </dependency>
         <dependency>
             <groupId>org.projectlombok</groupId>
             <artifactId>lombok</artifactId>
