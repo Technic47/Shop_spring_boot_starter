@@ -11,9 +11,9 @@
 
     <groupId>io.github.technic47</groupId>
     <artifactId>shop-spring-boot-starter</artifactId>
-    <version>1.0.10</version>
+    <version>1.0.11</version>
 
-    <name>${project.groupId}:${project.artifactId}</name>
+    <name>shop-starter</name>
     <description>Shop-starter</description>
     <url>https://github.com/Technic47/Shop_spring_boot_starter</url>
     <inceptionYear>2025</inceptionYear>
@@ -43,12 +43,12 @@
         <maven.compiler.release>17</maven.compiler.release>
 
         <spring-boot.version>3.5.6</spring-boot.version>
+        <mapstruct.version>1.6.2</mapstruct.version>
 
         <data-model.version>1.0.8</data-model.version>
         <data-model-dto.version>1.0.4</data-model-dto.version>
         <data-access.version>1.0.1</data-access.version>
 
-        <mapstruct.version>1.6.2</mapstruct.version>
     </properties>
     <dependencies>
         <dependency>
