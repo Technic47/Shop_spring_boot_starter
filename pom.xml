@@ -46,7 +46,7 @@
         <mapstruct.version>1.6.2</mapstruct.version>
 
         <data-model.version>1.0.8</data-model.version>
-        <data-model-dto.version>1.0.4</data-model-dto.version>
+        <data-model-dto.version>1.0.5</data-model-dto.version>
         <data-access.version>1.0.1</data-access.version>
 
     </properties>
