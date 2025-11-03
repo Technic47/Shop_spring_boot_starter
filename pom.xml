@@ -47,7 +47,7 @@
 
         <data-model.version>1.0.10</data-model.version>
         <data-model-dto.version>1.0.6</data-model-dto.version>
-        <data-access.version>1.0.3</data-access.version>
+        <data-access.version>1.0.4</data-access.version>
         <auth-keycloak.version>1.0.0</auth-keycloak.version>
     </properties>
     <dependencies>
