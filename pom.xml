@@ -11,7 +11,7 @@
 
     <groupId>io.github.technic47</groupId>
     <artifactId>shop-spring-boot-starter</artifactId>
-    <version>1.0.18</version>
+    <version>1.0.19</version>
 
     <name>shop-starter</name>
     <description>Shop-starter</description>
@@ -47,9 +47,9 @@
 
         <data-model.version>1.0.15</data-model.version>
         <data-model-dto.version>1.0.9</data-model-dto.version>
-        <data-access.version>1.0.6</data-access.version>
+        <data-access.version>1.0.7</data-access.version>
         <auth-keycloak.version>1.0.2</auth-keycloak.version>
-        <parameter-access.version>1.0.0</parameter-access.version>
+        <parameter-access.version>1.0.1</parameter-access.version>
     </properties>
     <dependencies>
         <dependency>
