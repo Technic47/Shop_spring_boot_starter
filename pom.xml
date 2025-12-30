@@ -11,7 +11,7 @@
 
     <groupId>io.github.technic47</groupId>
     <artifactId>shop-spring-boot-starter</artifactId>
-    <version>1.0.32</version>
+    <version>1.0.33</version>
 
     <name>shop-starter</name>
     <description>Shop-starter</description>
@@ -50,7 +50,7 @@
         <data-access.version>1.0.14</data-access.version>
         <auth-keycloak.version>1.0.2</auth-keycloak.version>
         <parameter-access.version>1.0.1</parameter-access.version>
-        <kafka-service.version>1.0.2</kafka-service.version>
+        <kafka-service.version>1.0.3</kafka-service.version>
     </properties>
     <dependencies>
         <dependency>
