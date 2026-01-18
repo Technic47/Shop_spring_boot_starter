@@ -11,7 +11,7 @@
 
     <groupId>io.github.technic47</groupId>
     <artifactId>shop-spring-boot-starter</artifactId>
-    <version>1.0.34</version>
+    <version>1.1.0</version>
 
     <name>shop-starter</name>
     <description>Shop-starter</description>
@@ -43,15 +43,30 @@
         <maven.compiler.release>17</maven.compiler.release>
 
         <spring-boot.version>3.5.6</spring-boot.version>
+        <spring-cloud.version>2025.0.1</spring-cloud.version>
+        <spring-cloud-eurika.version>4.3.1</spring-cloud-eurika.version>
         <mapstruct.version>1.6.2</mapstruct.version>
 
         <data-model.version>1.0.22</data-model.version>
         <data-model-dto.version>1.0.13</data-model-dto.version>
-        <data-access.version>1.0.15</data-access.version>
+        <data-access.version>1.1.0</data-access.version>
         <auth-keycloak.version>1.0.2</auth-keycloak.version>
         <parameter-access.version>1.0.1</parameter-access.version>
         <kafka-service.version>1.0.3</kafka-service.version>
     </properties>
+
+    <dependencyManagement>
+        <dependencies>
+            <dependency>
+                <groupId>org.springframework.cloud</groupId>
+                <artifactId>spring-cloud-dependencies</artifactId>
+                <version>${spring-cloud.version}</version>
+                <type>pom</type>
+                <scope>import</scope>
+            </dependency>
+        </dependencies>
+    </dependencyManagement>
+
     <dependencies>
         <dependency>
             <groupId>org.projectlombok</groupId>
@@ -65,7 +80,6 @@
             <groupId>com.fasterxml.jackson.datatype</groupId>
             <artifactId>jackson-datatype-jsr310</artifactId>
         </dependency>
-
     </dependencies>
 
     <build>
