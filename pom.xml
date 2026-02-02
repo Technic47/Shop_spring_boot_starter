@@ -11,7 +11,7 @@
 
     <groupId>io.github.technic47</groupId>
     <artifactId>shop-spring-boot-starter</artifactId>
-    <version>1.1.1</version>
+    <version>1.1.2</version>
 
     <name>shop-starter</name>
     <description>Shop-starter</description>
@@ -45,6 +45,7 @@
         <spring-boot.version>3.5.6</spring-boot.version>
         <spring-cloud.version>2025.0.1</spring-cloud.version>
         <spring-cloud-eurika.version>4.3.1</spring-cloud-eurika.version>
+        <spring-cloud-openfeign.version>4.3.1</spring-cloud-openfeign.version>
         <mapstruct.version>1.6.2</mapstruct.version>
 
         <data-model.version>1.0.22</data-model.version>
@@ -68,6 +69,10 @@
     </dependencyManagement>
 
     <dependencies>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-actuator</artifactId>
+        </dependency>
         <dependency>
             <groupId>org.projectlombok</groupId>
             <artifactId>lombok</artifactId>
