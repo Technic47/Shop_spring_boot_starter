@@ -11,7 +11,7 @@
 
     <groupId>io.github.technic47</groupId>
     <artifactId>shop-spring-boot-starter</artifactId>
-    <version>1.1.9</version>
+    <version>1.1.10</version>
 
     <name>shop-starter</name>
     <description>Shop-starter</description>
@@ -48,7 +48,7 @@
         <spring-cloud-openfeign.version>4.3.1</spring-cloud-openfeign.version>
         <mapstruct.version>1.6.2</mapstruct.version>
 
-        <data-model.version>1.0.25</data-model.version>
+        <data-model.version>1.0.26</data-model.version>
         <data-model-dto.version>1.0.16</data-model-dto.version>
         <data-access.version>1.1.1</data-access.version>
         <data-access-feign.version>1.0.3</data-access-feign.version>
