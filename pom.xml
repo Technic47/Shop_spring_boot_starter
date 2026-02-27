@@ -11,7 +11,7 @@
 
     <groupId>io.github.technic47</groupId>
     <artifactId>shop-spring-boot-starter</artifactId>
-    <version>1.1.12</version>
+    <version>1.1.13</version>
 
     <name>shop-starter</name>
     <description>Shop-starter</description>
@@ -41,6 +41,8 @@
         <java.version>17</java.version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <maven.compiler.release>17</maven.compiler.release>
+        <io.fabric8.docker-maven-plugin.version>0.48.1</io.fabric8.docker-maven-plugin.version>
+        <apache.maven-jar-plugin.version>3.5.0</apache.maven-jar-plugin.version>
 
         <spring-boot.version>3.5.6</spring-boot.version>
         <spring-cloud.version>2025.0.1</spring-cloud.version>
